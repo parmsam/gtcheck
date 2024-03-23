@@ -1,0 +1,20 @@
+Package: gtcheck
+Type: Package
+Title: Inspect 'gt' Tables for Automated Checking
+Version: 0.1.0
+Author: Sam Parmar
+Maintainer: Sam Parmar <yourself@somewhere.net>
+Description: gtcheck provides functions that inspect gt objects to make it 
+    easier to ensure that tables meet expectations. It is similar to ggcheck 
+    for ggplot2 objects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    gt,
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
